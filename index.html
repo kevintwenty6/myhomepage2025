@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Amos's Homepage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1 id="top">Amosi Lusato</h1>
+        <div>
+            <a href="#personal">Personal Info</a> |
+            <a href="#hobbies">Hobbies</a> |
+            <a href="#favorites">Favorite Links</a>
+        </div>
+    </nav>
+    <hr>
+    <main>
+     <article class="personal-information">
+         <h2 id="personal">Personal Information</h2>
+         <p><strong>Name:</strong> Amos Lusato</p>
+         <p><strong>Location:</strong> Mara, Tanzania</p>
+         <p>I am a student at the Open University of Tanzania.</p>
+         <p>I completed fieldwork at Musoma Municipal Council.</p>
+     </article>
+
+    <article class="hobbies">
+        <h2 id="hobbies">Hobbies</h2>
+        <p>I enjoy reading books, playing football, travelling, cooking and learning about new technologies.</p>
+        <p>Here is one of my favorite quotes:</p>
+        <blockquote><i>"You are enough just the way you are"</i></blockquote>
+
+    <h3>Top 5 Favorite Songs</h3>
+    <ul>
+        <li>Mwalimu – Kontawa</li>
+        <li>I Don't Care – Darassa</li>
+        <li>Happy Birthday – Diamond Platnumz</li>
+        <li>Hero – Enrique Iglesias</li>
+        <li>Watu Feki – Appy</li>
+    </ul>
+    </article>
+
+    <article class="favorite-links">
+        <h2 id="favorites">Favorite Links</h2>
+        <p>I study at <a href="https://www.out.ac.tz" target="_blank">Open University of Tanzania</a> and I'm part of the <a href="https://www.out.ac.tz/deptict/" target="_blank">ICT Department</a>.</p>
+        <p>Here are more links I enjoy:</p>
+        <ul>
+            <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+            <li><a href="https://google.com" target="_blank">Google</a></li>
+            <li><a href="https://portal.ajira.go.tz" target="_blank">Ajira Portal</a></li>
+            <li><a href="#top">Back to Top</a></li>
+        </ul>
+    
+        <h2>Gallery</h2>
+        <p>Here is my photo:</p>
+        <img src="Amos.jpg" alt="Amos's Photo" width="200">
+ 
+        <p>Image from external source (Wikimedia):</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Hopetoun_falls.jpg/320px-Hopetoun_falls.jpg" alt="Waterfall Image from Wikimedia">        
+
+        <h2>Weekly Schedule</h2>
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Activities</th>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>Attend businesses</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>Home cleaness</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>Attend sports</td>
+            </tr>
+        </table>
+    </article>
+</main>
+
+    <footer>
+        <hr>
+        <div id="footer"></div>
+    </footer>
+
+    <script>
+        const footer = document.getElementById("footer");
+        const locationText = "Page location: " + window.location.href;
+        const lastModified = "Last modified: " + document.lastModified;
+        footer.innerHTML = "<p>" + locationText + "<br>" + lastModified + "</p>";
+    </script>
+
+</body>
+</html>
